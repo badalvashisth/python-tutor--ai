@@ -1,0 +1,4 @@
+flask
+mistralai
+python-dotenv
+gunicorn
