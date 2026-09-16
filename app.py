@@ -29,7 +29,7 @@ load_dotenv()  # reads MISTRAL_API_KEY (and FLASK_SECRET_KEY) from a local .env 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("python-tutor-ai")
 
-MISTRAL_MODEL = "mistral-large-latest"
+MISTRAL_MODEL = "mistral-small-latest"
 MAX_USER_MESSAGE_LENGTH = 4000  # basic guardrail against runaway payloads
 
 app = Flask(__name__)
